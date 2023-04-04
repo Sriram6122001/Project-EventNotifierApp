@@ -12,7 +12,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
-      // Set the onGenerateRoute for the initialPage and the initialPageData.
+      // Set the onGenerateRoute and pass the function signature of the initial page as homeScreenConfig and the initialPageData as null.
       onGenerateRoute: AppRoute(
         initialPage: Pages.homeScreenConfig,
         initialPageData: null,
