@@ -13,7 +13,7 @@ HomeViewModel(){
 
 collections=["Sports","Music","Food","Arts"];
 
-// Declare the list eventDetails. & asng T HomeScreen Ins
+// Declare the list eventDetails and assign the HomeScreen instance.
 eventDetails=[
 HomeScreenBO(
 imageLocation:"lib/Helpers/Resources/Asset/Images/hands.png", 
