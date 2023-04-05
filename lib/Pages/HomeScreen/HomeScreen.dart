@@ -86,7 +86,7 @@ void dispose()
                   children: [
                     Container(
                       height: 100,
-                      width: 370,
+                      width: 400,
                       child: Stack(
                         alignment: AlignmentDirectional.bottomCenter,
                         children: <Widget> [
